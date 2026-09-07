@@ -5,3 +5,7 @@ set the environment .venv
 dbt init --skip-profile-setup-airbnb
 
  dbt debug      
+
+dbt run 
+
+dbt run --full-refresh
