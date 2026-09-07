@@ -1,0 +1,7 @@
+set the environment .venv
+
+.venv\Scripts\Activate.ps1
+
+dbt init --skip-profile-setup-airbnb
+
+ dbt debug      
